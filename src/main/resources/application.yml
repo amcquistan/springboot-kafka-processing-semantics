@@ -25,7 +25,8 @@ kafka-topics:
   - fake-topic2
 
 kafka-api:
-  mytopic1:
-    name: my-topic1
-  mytopic2:
-    name: my-topic2
+  topics:
+    mytopic1:
+      name: my-topic1
+    mytopic2:
+      name: my-topic2
