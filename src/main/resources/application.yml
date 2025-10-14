@@ -19,3 +19,13 @@ kafka:
       name: people
       partitions: 1
       replication-factor: 1
+
+kafka-topics:
+  - fake-topic1
+  - fake-topic2
+
+kafka-api:
+  mytopic1:
+    name: my-topic1
+  mytopic2:
+    name: my-topic2
